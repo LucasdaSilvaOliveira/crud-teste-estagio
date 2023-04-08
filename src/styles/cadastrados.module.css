@@ -1,0 +1,32 @@
+.cadastrados_container {
+    background-color: #afa5a5;
+    width: fit-content;
+    margin: 50px auto 50px auto;
+}
+
+.cadastrados_container h1 {
+    font-size: 20px;
+}
+
+.cadastrados_container p {
+    font-size: 16px;
+}
+
+.cadastrados_container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.main {
+    text-align: center;
+}
+
+.main > button {
+    margin-top: 50px;
+    margin-left: 10px;
+}
